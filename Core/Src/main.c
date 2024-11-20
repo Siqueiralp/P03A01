@@ -22,7 +22,7 @@
 uint8_t counter = 0x1F;
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+uint8_t temp;
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -72,7 +72,7 @@ int main(void)
   /* MCU Configuration--------------------------------------------------------*/
 
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+    HAL_Init();
 
   /* USER CODE BEGIN Init */
 
@@ -102,29 +102,33 @@ int main(void)
   if (button_release(GPIOA, GPIO_PIN_0,SET))
     {
 
-      if (htim4.Init.Period >= 1030) {
-            if (__HAL_TIM_GET_AUTORELOAD(&htim4) + 1030 <= 65535) {
-                __HAL_TIM_SET_AUTORELOAD(&htim4, __HAL_TIM_GET_AUTORELOAD(&htim4) + 1030);
-                            HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-            }
-
+            if (htim4.Init.Period + 1030 <= 65535) {
+            htim4.Init.Period = htim4.Init.Period + 1030;
+             
+                  HAL_TIM_Base_Start_IT(&htim4);
+                 HAL_TIM_IC_Init(&htim4);
+                  //MX_TIM4_Init();
+                HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
     }
-    HAL_Delay(200);
+    //HAL_Delay(200);
     }
     //if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_1) == GPIO_PIN_SET)
     if (button_release(GPIOA, GPIO_PIN_1,SET))
     {
-
-            if (__HAL_TIM_GET_AUTORELOAD(&htim4) >= 1030) {
-                __HAL_TIM_SET_AUTORELOAD(&htim4, __HAL_TIM_GET_AUTORELOAD(&htim4) - 1030);
+if (htim4.Init.Period > 1030){
+                htim4.Init.Period = htim4.Init.Period - 1030;
+                
+                  HAL_TIM_Base_Start_IT(&htim4);
+                 HAL_TIM_IC_Init(&htim4);
                 HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-            }
-            HAL_Delay(200);
+}
+           // HAL_Delay(200);
     }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
+
 
 void update_leds(uint8_t value) {
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, (value & 0x01) ? GPIO_PIN_SET : GPIO_PIN_RESET);
