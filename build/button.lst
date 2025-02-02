@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.file 1 "Core/Src/button.c"
-  20              		.section	.text.button,"ax",%progbits
-  21              		.align	1
-  22              		.global	button
-  23              		.syntax unified
-  24              		.thumb
-  25              		.thumb_func
-  27              	button:
-  28              	.LFB130:
+  19              		.section	.text.button,"ax",%progbits
+  20              		.align	1
+  21              		.global	button
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	button:
+  27              	.LFB216:
+  28              		.file 1 "Core/Src/button.c"
    1:Core/Src/button.c **** /* Includes ------------------------------------------------------------------*/
    2:Core/Src/button.c **** #include "button.h"
    3:Core/Src/button.c **** 
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
   28:Core/Src/button.c ****  * @return 255 if the pin was in the active state for given period, 0 otherwise
   29:Core/Src/button.c ****  */
   30:Core/Src/button.c **** uint16_t button(GPIO_TypeDef* ui32Port, uint16_t ui16Pin, uint16_t active_state)
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 2
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 2
 
 
   31:Core/Src/button.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
   71 002c FFF7FEFF 		bl	HAL_GPIO_ReadPin
   72 0030 0346     		mov	r3, r0
   73              		.loc 1 42 11
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 3
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 3
 
 
   74 0032 002B     		cmp	r3, #0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
  112              		.loc 1 56 27
  113 0068 FB68     		ldr	r3, [r7, #12]
  114 006a 5B08     		lsrs	r3, r3, #1
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 4
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 4
 
 
  115              		.loc 1 56 12
@@ -227,7 +227,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
  145              		@ sp needed
  146 008c 80BD     		pop	{r7, pc}
  147              		.cfi_endproc
- 148              	.LFE130:
+ 148              	.LFE216:
  150              		.section	.text.button_release,"ax",%progbits
  151              		.align	1
  152              		.global	button_release
@@ -235,10 +235,10 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
  154              		.thumb
  155              		.thumb_func
  157              	button_release:
- 158              	.LFB131:
+ 158              	.LFB217:
   70:Core/Src/button.c **** 
   71:Core/Src/button.c **** /* Includes ------------------------------------------------------------------*/
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 5
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 5
 
 
   72:Core/Src/button.c **** #include "button.h"
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
  184 0018 FFF7FEFF 		bl	button
  185 001c 0346     		mov	r3, r0
  186              		.loc 1 100 7
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 6
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 6
 
 
  187 001e 002B     		cmp	r3, #0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
  225              	.L15:
  117:Core/Src/button.c ****     }    
  118:Core/Src/button.c **** }
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 7
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 7
 
 
  226              		.loc 1 118 1
@@ -372,23 +372,23 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 1
  234              		@ sp needed
  235 005a 80BD     		pop	{r7, pc}
  236              		.cfi_endproc
- 237              	.LFE131:
+ 237              	.LFE217:
  239              		.text
  240              	.Letext0:
- 241              		.file 2 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/12.3.1/../
- 242              		.file 3 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/12.3.1/../
+ 241              		.file 2 "c:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-ea
+ 242              		.file 3 "c:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-ea
  243              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
  244              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
  245              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s 			page 8
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 button.c
-C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s:21     .text.button:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s:27     .text.button:00000000 button
-C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s:151    .text.button_release:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccR8xjhQ.s:157    .text.button_release:00000000 button_release
+C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s:20     .text.button:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s:26     .text.button:00000000 button
+C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s:151    .text.button_release:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccOXoAy0.s:157    .text.button_release:00000000 button_release
 
 UNDEFINED SYMBOLS
 HAL_GPIO_ReadPin

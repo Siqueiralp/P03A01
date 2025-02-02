@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -19,15 +19,15 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.file 1 "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
-  20              		.section	.text.HAL_PWREx_EnableBkUpReg,"ax",%progbits
-  21              		.align	1
-  22              		.global	HAL_PWREx_EnableBkUpReg
-  23              		.syntax unified
-  24              		.thumb
-  25              		.thumb_func
-  27              	HAL_PWREx_EnableBkUpReg:
-  28              	.LFB130:
+  19              		.section	.text.HAL_PWREx_EnableBkUpReg,"ax",%progbits
+  20              		.align	1
+  21              		.global	HAL_PWREx_EnableBkUpReg
+  22              		.syntax unified
+  23              		.thumb
+  24              		.thumb_func
+  26              	HAL_PWREx_EnableBkUpReg:
+  27              	.LFB216:
+  28              		.file 1 "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
    1:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
    2:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   ******************************************************************************
    3:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @file    stm32f4xx_hal_pwr_ex.c
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
   28:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /** @defgroup PWREx PWREx
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief PWR HAL module driver
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 2
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 2
 
 
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @{
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
   85:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****           level 0 is requested. 
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****       -@- Refer to the description of Read protection (RDP) in the Flash 
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****           programming manual.
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 3
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 3
 
 
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  142:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** {
   29              		.loc 1 142 1
   30              		.cfi_startproc
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 4
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 4
 
 
   31              		@ args = 0, pretend = 0, frame = 8
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
   71              		.loc 1 151 9
   72 002c 064B     		ldr	r3, .L5+4
   73 002e 5B68     		ldr	r3, [r3, #4]
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 5
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 5
 
 
   74 0030 03F00803 		and	r3, r3, #8
@@ -269,7 +269,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
   94 0044 A4000E42 		.word	1108213924
   95 0048 00700040 		.word	1073770496
   96              		.cfi_endproc
-  97              	.LFE130:
+  97              	.LFE216:
   99              		.section	.text.HAL_PWREx_DisableBkUpReg,"ax",%progbits
  100              		.align	1
  101              		.global	HAL_PWREx_DisableBkUpReg
@@ -277,7 +277,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  103              		.thumb
  104              		.thumb_func
  106              	HAL_PWREx_DisableBkUpReg:
- 107              	.LFB131:
+ 107              	.LFB217:
  160:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  161:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  162:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Disables the Backup Regulator.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  118              	.LCFI6:
  119              		.cfi_def_cfa_offset 16
  120 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 6
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 6
 
 
  121              	.LCFI7:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  157              		.loc 1 182 10
  158 0038 0023     		movs	r3, #0
  159              	.L9:
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 7
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 7
 
 
  183:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** }
@@ -378,7 +378,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  173 0044 A4000E42 		.word	1108213924
  174 0048 00700040 		.word	1073770496
  175              		.cfi_endproc
- 176              	.LFE131:
+ 176              	.LFE217:
  178              		.section	.text.HAL_PWREx_EnableFlashPowerDown,"ax",%progbits
  179              		.align	1
  180              		.global	HAL_PWREx_EnableFlashPowerDown
@@ -386,7 +386,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  182              		.thumb
  183              		.thumb_func
  185              	HAL_PWREx_EnableFlashPowerDown:
- 186              	.LFB132:
+ 186              	.LFB218:
  184:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  185:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  186:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Enables the Flash Power Down in Stop mode.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  206 000c BD46     		mov	sp, r7
  207              	.LCFI12:
  208              		.cfi_def_cfa_register 13
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 8
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 8
 
 
  209              		@ sp needed
@@ -432,7 +432,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  217              	.L14:
  218 0014 24000E42 		.word	1108213796
  219              		.cfi_endproc
- 220              	.LFE132:
+ 220              	.LFE218:
  222              		.section	.text.HAL_PWREx_DisableFlashPowerDown,"ax",%progbits
  223              		.align	1
  224              		.global	HAL_PWREx_DisableFlashPowerDown
@@ -440,7 +440,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  226              		.thumb
  227              		.thumb_func
  229              	HAL_PWREx_DisableFlashPowerDown:
- 230              	.LFB133:
+ 230              	.LFB219:
  193:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  194:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  195:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Disables the Flash Power Down in Stop mode.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  256              		.cfi_restore 7
  257              		.cfi_def_cfa_offset 0
  258 0012 7047     		bx	lr
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 9
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 9
 
 
  259              	.L18:
@@ -486,7 +486,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  261              	.L17:
  262 0014 24000E42 		.word	1108213796
  263              		.cfi_endproc
- 264              	.LFE133:
+ 264              	.LFE219:
  266              		.section	.text.HAL_PWREx_GetVoltageRange,"ax",%progbits
  267              		.align	1
  268              		.global	HAL_PWREx_GetVoltageRange
@@ -494,7 +494,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  270              		.thumb
  271              		.thumb_func
  273              	HAL_PWREx_GetVoltageRange:
- 274              	.LFB134:
+ 274              	.LFB220:
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  203:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Return Voltage Scaling Range.
@@ -538,13 +538,13 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  302 0014 7047     		bx	lr
  303              	.L22:
  304 0016 00BF     		.align	2
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 10
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 10
 
 
  305              	.L21:
  306 0018 00700040 		.word	1073770496
  307              		.cfi_endproc
- 308              	.LFE134:
+ 308              	.LFE220:
  310              		.section	.text.HAL_PWREx_ControlVoltageScaling,"ax",%progbits
  311              		.align	1
  312              		.global	HAL_PWREx_ControlVoltageScaling
@@ -552,7 +552,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  314              		.thumb
  315              		.thumb_func
  317              	HAL_PWREx_ControlVoltageScaling:
- 318              	.LFB135:
+ 318              	.LFB221:
  215:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  216:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** #if defined(STM32F405xx) || defined(STM32F415xx) || defined(STM32F407xx) || defined(STM32F417xx)
  217:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  257:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** #elif defined(STM32F427xx) || defined(STM32F437xx) || defined(STM32F429xx) || defined(STM32F439xx) 
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****       defined(STM32F401xC) || defined(STM32F401xE) || defined(STM32F410Tx) || defined(STM32F410Cx) 
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****       defined(STM32F410Rx) || defined(STM32F411xE) || defined(STM32F446xx) || defined(STM32F469xx) 
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 11
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 11
 
 
  260:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****       defined(STM32F479xx) || defined(STM32F412Zx) || defined(STM32F412Vx) || defined(STM32F412Rx) 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  294:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   /* Enable PWR RCC Clock Peripheral */
  295:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   __HAL_RCC_PWR_CLK_ENABLE();
  339              		.loc 1 295 3
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 12
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 12
 
 
  340 000c 0023     		movs	r3, #0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  379              		.loc 1 310 16
  380 0050 0323     		movs	r3, #3
  381 0052 44E0     		b	.L26
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 13
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 13
 
 
  382              	.L25:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  419 0092 0246     		mov	r2, r0
  420              		.loc 1 325 25
  421 0094 7B69     		ldr	r3, [r7, #20]
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 14
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 14
 
 
  422 0096 D31A     		subs	r3, r2, r3
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  460              		.loc 1 333 48
  461 00d0 B3F5804F 		cmp	r3, #16384
  462 00d4 EED1     		bne	.L31
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 15
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 15
 
 
  463 00d6 01E0     		b	.L33
@@ -877,7 +877,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  486 00ec 60004742 		.word	1111949408
  487 00f0 00700040 		.word	1073770496
  488              		.cfi_endproc
- 489              	.LFE135:
+ 489              	.LFE221:
  491              		.section	.text.HAL_PWREx_EnableMainRegulatorLowVoltage,"ax",%progbits
  492              		.align	1
  493              		.global	HAL_PWREx_EnableMainRegulatorLowVoltage
@@ -885,7 +885,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  495              		.thumb
  496              		.thumb_func
  498              	HAL_PWREx_EnableMainRegulatorLowVoltage:
- 499              	.LFB136:
+ 499              	.LFB222:
  348:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** #endif /* STM32F405xx || STM32F415xx || STM32F407xx || STM32F417xx */
  349:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  350:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** #if defined(STM32F401xC) || defined(STM32F401xE) || defined(STM32F410Tx) || defined(STM32F410Cx) ||
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  357:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @retval None
  358:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   */
  359:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** void HAL_PWREx_EnableMainRegulatorLowVoltage(void)
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 16
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 16
 
 
  360:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** {
@@ -937,7 +937,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  530              	.L37:
  531 0014 2C000E42 		.word	1108213804
  532              		.cfi_endproc
- 533              	.LFE136:
+ 533              	.LFE222:
  535              		.section	.text.HAL_PWREx_DisableMainRegulatorLowVoltage,"ax",%progbits
  536              		.align	1
  537              		.global	HAL_PWREx_DisableMainRegulatorLowVoltage
@@ -945,7 +945,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  539              		.thumb
  540              		.thumb_func
  542              	HAL_PWREx_DisableMainRegulatorLowVoltage:
- 543              	.LFB137:
+ 543              	.LFB223:
  363:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  364:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  365:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Disables Main Regulator low voltage mode.
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  544              		.loc 1 371 1
  545              		.cfi_startproc
  546              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 17
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 17
 
 
  547              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -993,7 +993,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  574              	.L40:
  575 0014 2C000E42 		.word	1108213804
  576              		.cfi_endproc
- 577              	.LFE137:
+ 577              	.LFE223:
  579              		.section	.text.HAL_PWREx_EnableLowRegulatorLowVoltage,"ax",%progbits
  580              		.align	1
  581              		.global	HAL_PWREx_EnableLowRegulatorLowVoltage
@@ -1001,7 +1001,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  583              		.thumb
  584              		.thumb_func
  586              	HAL_PWREx_EnableLowRegulatorLowVoltage:
- 587              	.LFB138:
+ 587              	.LFB224:
  374:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  375:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  376:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Enables Low Power Regulator low voltage mode.
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  592              		@ link register save eliminated.
  593 0000 80B4     		push	{r7}
  594              	.LCFI35:
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 18
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 18
 
 
  595              		.cfi_def_cfa_offset 4
@@ -1049,7 +1049,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  618              	.L43:
  619 0014 28000E42 		.word	1108213800
  620              		.cfi_endproc
- 621              	.LFE138:
+ 621              	.LFE224:
  623              		.section	.text.HAL_PWREx_DisableLowRegulatorLowVoltage,"ax",%progbits
  624              		.align	1
  625              		.global	HAL_PWREx_DisableLowRegulatorLowVoltage
@@ -1057,7 +1057,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  627              		.thumb
  628              		.thumb_func
  630              	HAL_PWREx_DisableLowRegulatorLowVoltage:
- 631              	.LFB139:
+ 631              	.LFB225:
  385:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** 
  386:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c **** /**
  387:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ****   * @brief Disables Low Power Regulator low voltage mode.
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  640              		.cfi_offset 7, -4
  641 0002 00AF     		add	r7, sp, #0
  642              	.LCFI40:
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 19
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 19
 
 
  643              		.cfi_def_cfa_register 7
@@ -1105,50 +1105,50 @@ ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 1
  662              	.L46:
  663 0014 28000E42 		.word	1108213800
  664              		.cfi_endproc
- 665              	.LFE139:
+ 665              	.LFE225:
  667              		.text
  668              	.Letext0:
- 669              		.file 2 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/12.3.1/../
- 670              		.file 3 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin/../lib/gcc/arm-none-eabi/12.3.1/../
+ 669              		.file 2 "c:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-ea
+ 670              		.file 3 "c:\\arm-gcc\\tools\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\arm-none-ea
  671              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h"
  672              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
  673              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
  674              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s 			page 20
+ARM GAS  C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_pwr_ex.c
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:21     .text.HAL_PWREx_EnableBkUpReg:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:27     .text.HAL_PWREx_EnableBkUpReg:00000000 HAL_PWREx_EnableBkUpReg
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:94     .text.HAL_PWREx_EnableBkUpReg:00000044 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:100    .text.HAL_PWREx_DisableBkUpReg:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:106    .text.HAL_PWREx_DisableBkUpReg:00000000 HAL_PWREx_DisableBkUpReg
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:173    .text.HAL_PWREx_DisableBkUpReg:00000044 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:179    .text.HAL_PWREx_EnableFlashPowerDown:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:185    .text.HAL_PWREx_EnableFlashPowerDown:00000000 HAL_PWREx_EnableFlashPowerDown
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:218    .text.HAL_PWREx_EnableFlashPowerDown:00000014 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:223    .text.HAL_PWREx_DisableFlashPowerDown:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:229    .text.HAL_PWREx_DisableFlashPowerDown:00000000 HAL_PWREx_DisableFlashPowerDown
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:262    .text.HAL_PWREx_DisableFlashPowerDown:00000014 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:267    .text.HAL_PWREx_GetVoltageRange:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:273    .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:306    .text.HAL_PWREx_GetVoltageRange:00000018 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:311    .text.HAL_PWREx_ControlVoltageScaling:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:317    .text.HAL_PWREx_ControlVoltageScaling:00000000 HAL_PWREx_ControlVoltageScaling
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:485    .text.HAL_PWREx_ControlVoltageScaling:000000e8 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:492    .text.HAL_PWREx_EnableMainRegulatorLowVoltage:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:498    .text.HAL_PWREx_EnableMainRegulatorLowVoltage:00000000 HAL_PWREx_EnableMainRegulatorLowVoltage
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:531    .text.HAL_PWREx_EnableMainRegulatorLowVoltage:00000014 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:536    .text.HAL_PWREx_DisableMainRegulatorLowVoltage:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:542    .text.HAL_PWREx_DisableMainRegulatorLowVoltage:00000000 HAL_PWREx_DisableMainRegulatorLowVoltage
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:575    .text.HAL_PWREx_DisableMainRegulatorLowVoltage:00000014 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:580    .text.HAL_PWREx_EnableLowRegulatorLowVoltage:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:586    .text.HAL_PWREx_EnableLowRegulatorLowVoltage:00000000 HAL_PWREx_EnableLowRegulatorLowVoltage
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:619    .text.HAL_PWREx_EnableLowRegulatorLowVoltage:00000014 $d
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:624    .text.HAL_PWREx_DisableLowRegulatorLowVoltage:00000000 $t
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:630    .text.HAL_PWREx_DisableLowRegulatorLowVoltage:00000000 HAL_PWREx_DisableLowRegulatorLowVoltage
-C:\Users\stryk\AppData\Local\Temp\ccCm8sAf.s:663    .text.HAL_PWREx_DisableLowRegulatorLowVoltage:00000014 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:20     .text.HAL_PWREx_EnableBkUpReg:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:26     .text.HAL_PWREx_EnableBkUpReg:00000000 HAL_PWREx_EnableBkUpReg
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:94     .text.HAL_PWREx_EnableBkUpReg:00000044 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:100    .text.HAL_PWREx_DisableBkUpReg:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:106    .text.HAL_PWREx_DisableBkUpReg:00000000 HAL_PWREx_DisableBkUpReg
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:173    .text.HAL_PWREx_DisableBkUpReg:00000044 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:179    .text.HAL_PWREx_EnableFlashPowerDown:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:185    .text.HAL_PWREx_EnableFlashPowerDown:00000000 HAL_PWREx_EnableFlashPowerDown
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:218    .text.HAL_PWREx_EnableFlashPowerDown:00000014 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:223    .text.HAL_PWREx_DisableFlashPowerDown:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:229    .text.HAL_PWREx_DisableFlashPowerDown:00000000 HAL_PWREx_DisableFlashPowerDown
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:262    .text.HAL_PWREx_DisableFlashPowerDown:00000014 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:267    .text.HAL_PWREx_GetVoltageRange:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:273    .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:306    .text.HAL_PWREx_GetVoltageRange:00000018 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:311    .text.HAL_PWREx_ControlVoltageScaling:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:317    .text.HAL_PWREx_ControlVoltageScaling:00000000 HAL_PWREx_ControlVoltageScaling
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:485    .text.HAL_PWREx_ControlVoltageScaling:000000e8 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:492    .text.HAL_PWREx_EnableMainRegulatorLowVoltage:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:498    .text.HAL_PWREx_EnableMainRegulatorLowVoltage:00000000 HAL_PWREx_EnableMainRegulatorLowVoltage
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:531    .text.HAL_PWREx_EnableMainRegulatorLowVoltage:00000014 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:536    .text.HAL_PWREx_DisableMainRegulatorLowVoltage:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:542    .text.HAL_PWREx_DisableMainRegulatorLowVoltage:00000000 HAL_PWREx_DisableMainRegulatorLowVoltage
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:575    .text.HAL_PWREx_DisableMainRegulatorLowVoltage:00000014 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:580    .text.HAL_PWREx_EnableLowRegulatorLowVoltage:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:586    .text.HAL_PWREx_EnableLowRegulatorLowVoltage:00000000 HAL_PWREx_EnableLowRegulatorLowVoltage
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:619    .text.HAL_PWREx_EnableLowRegulatorLowVoltage:00000014 $d
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:624    .text.HAL_PWREx_DisableLowRegulatorLowVoltage:00000000 $t
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:630    .text.HAL_PWREx_DisableLowRegulatorLowVoltage:00000000 HAL_PWREx_DisableLowRegulatorLowVoltage
+C:\Users\stryk\AppData\Local\Temp\ccf5Jlpi.s:663    .text.HAL_PWREx_DisableLowRegulatorLowVoltage:00000014 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick
